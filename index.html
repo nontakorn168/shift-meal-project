@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <div id="content">
+    <h1>Shift Meal Order</h1>
+    <h2><span id="currentDate"></span></h2>
+    <form id ="orderForm">
+        <label for="employeeName">Employee Name :</label>
+        <input type="text" id="employeeName"  placeholder="your name" required><br>
+        <label for="ordering">What would you like today?</label><br>
+
+        <img src="pic/Crab-Fried-Rice.jpeg" alt="Meal Image" class="form-image">
+        <input type="radio" id="crabFriedRice" value="Crab Fried Rice" name="food">
+        <label for="crabFriedRice">Crab Fried Rice</label><br>
+        
+        <img src="pic/coconut.png" alt="Meal Image" class="form-image">
+        <input type="radio" id="coconutCrabCurry" value="Coconut Crab Curry" name="food">
+        <label for="coconutCrabCurry" value="coconutCrabCurry">Coconut Crab Curry</label><br>
+        
+        <img src="pic/steam.webp" alt="Meal Image" class="form-image">
+        <input type="radio" id="steamFishWithThaiHerbs" value="Steam Fish with Thai Herbs" name="food">
+        <label for="steamFishWithThaiHerbs">Steam Fish with Thai Herbs</label><br>
+        
+        <img src="pic/boat-Noodle.jpeg" alt="Meal Image" class="form-image">
+        <input type="radio" id="boatNoodleSoup" value="Boat Noodle Soup" name="food">
+        <label for="boatNoodleSoup" value="boatNoodleSoup">Boat Noodle Soup</label><br>
+        
+        <img src="pic/Khaosoy.webp" alt="Meal Image" class="form-image">
+        <input type="radio" id="chickenKhoasoy" value="Chicken Khoasoy" name="food">
+        <label for="chickenKhoasoy" value="chickenKhoasoy">Chicken Khoasoy</label><br>
+        
+        <button type="submit">Order Now!</button>
+    </form>
+    </div>
+    <div>
+        <h1>Order List</h1>
+        <ul id="orderList"></ul>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
