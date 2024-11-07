@@ -1,8 +1,7 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #F4F1E6; /* Light earth tone */
-    color: #4A3F35; /* Dark earth tone for text */
+    background-color: #F4F1E6; 
+    color: #4A3F35; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,25 +9,25 @@ body {
     padding: 20px;
 }
 
-/* Container */
+
 div {
     width: 100%;
     max-width: 600px;
-    background-color: #FFF5E1; /* Slightly darker earth tone */
+    background-color: #FFF5E1; 
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Headings */
+
 h1 {
     text-align: center;
-    color: #6B4E3D; /* Earthy brown */
+    color: #6B4E3D;
     margin-bottom: 15px;
 }
 
-/* Form Styling */
+
 form {
     display: flex;
     flex-direction: column;
@@ -37,7 +36,6 @@ form {
     align-items: center;
 }
 
-/* Labels and Inputs */
 label {
     font-size: 16px;
     color: #4A3F35;
@@ -46,7 +44,7 @@ label {
 input[type="text"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #A8977C; /* Earth-tone border */
+    border: 1px solid #A8977C; 
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -56,7 +54,7 @@ input[type="radio"] {
 }
 
 button {
-    background-color: #8E7F70; /* Soft brown button */
+    background-color: #8E7F70; 
     color: white;
     padding: 10px 15px;
     border: none;
@@ -66,28 +64,28 @@ button {
 }
 
 button:hover {
-    background-color: #6B4E3D; /* Darker on hover */
+    background-color: #6B4E3D; 
 }
 
-/* Order List */
+
 #orderList {
     list-style-type: none;
     padding: 0;
 }
 
 #orderList li {
-    background-color: #D4C7B5; /* Light earth tone for list items */
+    background-color: #D4C7B5; 
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
-    border-left: 4px solid #6B4E3D; /* Dark earth tone border */
+    border-left: 4px solid #6B4E3D; 
     font-size: 16px;
 }
-/* Styling for the image inside the form */
+
 .form-image {
-    width: 100%;          /* Full width or adjust as needed */
-    max-width: 300px;     /* Limits the maximum size */
+    width: 100%;         
+    max-width: 300px;     
     display: block;
-    margin: 0 auto 20px;  /* Center the image and add space below */
-    border-radius: 8px;   /* Optional: adds rounded corners */
+    margin: 0 auto 20px;  
+    border-radius: 8px;   
 }
